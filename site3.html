@@ -1,0 +1,191 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css" >
+    <title>Document</title>
+    
+</head>
+
+<!------------------------------------------------------------------------------------->
+
+
+<body>
+    
+<header>
+    <nav>
+
+    </nav>
+</header>
+
+<!------------------------------------------------------------------------------------->
+
+<main>
+
+    <section>
+
+        <h1>Formulaire de contact</h1>
+
+        <form action="">
+
+            <label for="name"> Enter your name</label>
+            <br>
+            <input type="text" placeholder="Enter your name " id="name"/>
+            <br>
+
+            <label for="password1"> password</label><br/>
+            <input type="password" id="password1" placeholder="Enter your password" />
+            
+            <br>
+            <label for="nbr">Number of Travelers</label><br/>
+            <input class="number_travelers" type="number" id="nbr"  /> <!-- nombre maximale 10 alors la carrer reste petit-->
+            <br/>
+
+            <p>Choose your tiket</p><br/>
+            <input type="radio" >
+            <label>Economy</label>
+            <br/>
+            
+            <input type="radio">
+            <label>Business</label>
+            <br/>
+            <input type="checkbox" id="ch">
+            <label for="ch">I accept the travel rules.</label>
+            
+            <br/>
+            
+
+            <br/>
+            <br/>
+            <!--rows : hauteur 
+                cols : largeur-->
+            <textarea name="" id="" rows="10" cols="40" placeholder = "enter your message"></textarea>
+            <br/>
+            <button>Envoyer</button>
+
+        </form>
+
+<!------------------------------------------------------------------------------------->
+        
+
+    <section>
+
+        <select name="" id="">
+            <!--                                              -->
+            <option value="" selected disabled> select your wilaya </option>
+            <option value="Alger">Alger</option>
+            <option value="Blida">Blida</option>
+            <option value="Boumerdas">Boumerdas</option>
+            <!--si on mets tous les value= alger, meme si je clique sur blida elle va envoyer alger-->
+        </select>
+
+    </section>
+
+<!------------------------------------------------------------------------------------->
+<!------------------------------------------------------------------------------------->
+<!---- Table -->
+<br>
+    <section>
+
+        <table border= "2">
+
+            <tr>
+                <th>Nom</th>
+                <th>Note</th>
+                <th>Matire</th>
+            </tr>
+
+            <tr>
+                <td>Hady</td>
+                <td>11</td>
+                <td>Math</td>
+            </tr>
+
+            <tr>
+                <td>Mohamed</td>
+                <td>15</td>
+                <td>math</td>
+            </tr>
+
+        </table>
+        
+    </section>
+
+<!------------------------------------------------------------------------------------->
+
+    <section>
+        <!--Intégrer une vidéo YouTube-->
+        <!--autoplay=1&mute=1  : mute , autoplay=1 video marche toute seule-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nhJbPvPEZtY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <video controls> <!-- Ce que fait l'attribut controlsIl indique au navigateur d'afficher l'interface de lecture standard. Cela inclut automatiquement :Le bouton Lecture / PauseLa barre de progression pour avancer ou reculer dans la vidéoLe réglage du volume et le bouton muetLe bouton pour passer en plein écran-->
+            <source src="VID_156770811_180637_902.mp4" type="video/mp3">
+        </video>
+
+    </section>
+
+<!------------------------------------------------------------------------------------->
+    <hr/>
+    <section>
+        <h1>Programming Level</h1>
+        <p>Chose your level : </p>
+        
+        <select>
+            <option selected disabled >Select your level</option>
+            <option value="Debutant">Débutant</option>
+            <option value="Intermediaire">Intermédiaire</option>
+            <option value="Avance">Avancé</option>
+        </select>
+
+        <h1>About You</h1>
+        <p>Tell us about yourself: </p>
+
+        <textarea name="" id="" rows="10" cols="40" placeholder = "Write a few sentences about yourself..."></textarea>
+        <br/>
+
+        <h1>Watch Our youtube Video</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nhJbPvPEZtY?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <table border="2"> 
+            <tr>
+                <th>Day</th>
+                <th>Time</th>
+                <th>Subject</th>
+            </tr>
+
+            <tr>
+                <td>Saturday</td>
+                <td>09:00</td>
+                <td>HTML</td>
+            </tr>
+
+            <tr>
+                <td>Sunday</td>
+                <td>20:00</td>
+                <td>css</td>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>17:00</td>
+                <td>Javascript</td>
+            </tr>
+        </table>
+        
+
+            
+
+
+    </section>
+
+
+
+
+</main>
+
+<footer>
+    
+</footer>
+
+</body>
+</html>
